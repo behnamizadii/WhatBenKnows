@@ -1,0 +1,117 @@
+
+
+@font-face {
+    font-family: "LG" ;
+    src: url(src/font/LeagueGothic-Regular.otf);
+}
+
+html{
+    font-family: LG;
+    font-size: 14px;
+}
+
+body{
+    background-color: #E0E0E0;
+}
+
+div{
+
+}
+
+#pageBody{
+    min-width:320px;
+    margin: 50px auto 0px auto;
+    height:100%;
+    background-color: #E0E0E0;
+}
+
+#wrapper{
+    width: 60%;
+    max-width: 600px;
+    margin: 0px auto;
+    background-color: #eee;
+}
+
+
+.container{
+    height:100%;
+    width: 100%;
+    background-color: white;
+}
+
+.container>img{
+    height:100%;
+    width: 100%;
+}
+
+#narrowSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3em;
+    height: 100px;
+    padding: 0 10px;
+    background-color: #0092BF;
+}
+#narrowSection>span{
+}
+
+#platter {
+    margin-top:20px;
+    height:100px;
+    column-count: 3;
+}
+.rowing{
+    float:left;
+    width:223px;
+    height: 100%;
+}
+
+@media screen and (min-width: 320px){
+    #narrowSection{
+        font-size: 2em;
+    }
+
+    #platter{
+        margin-top:20px;
+        height: 100%;
+        column-count: 1;
+    }
+    .rowing{
+        float:left;
+        display: block;
+        width:100%;
+        height: 100%;
+
+    }
+}
+
+@media screen and (min-width:450px){
+    #platter{
+        margin-top:20px;
+        height: 100%;
+        column-count: 2;
+    }
+}
+
+@media screen and (min-width:600px){
+    #narrowSection{
+        font-size: 3em;
+    }
+
+    #platter{
+        margin-top:20px;
+        height: 100%;
+        column-count: 3;
+    }
+    .rowing{
+        float:left;
+        display: block;
+        width:100%;
+        height: 100%;
+
+    }
+}
+
+
